@@ -1,0 +1,38 @@
+.button {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.button img:active {
+    background-color: rgba(190,190,190);
+}
+
+.button img {
+    width: 40px;
+}
+
+.start {
+    background-image: url("../img/play.png")
+}
+
+.pause {
+    background-image: url("../img/pause.png")
+}
+
+.stop {
+    background-image: url("../img/stop.png")
+}
+
+.ajax-view td{
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.54);
+    -moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.54);
+    box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.54);
+    padding: 3px 100px;
+}
+
+.chain table {
+    border-spacing: 1px`;
+}
